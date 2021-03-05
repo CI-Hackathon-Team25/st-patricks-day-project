@@ -77,7 +77,7 @@ In addition, if it is not obvious, you should also describe how to run your code
 - The text for history page was written by Marta and extracted from [Wikipedia](https://en.wikipedia.org/wiki/Saint_Patrick%27s_Day)
 
 ### Media
-- The background image for history-page 
+- The background image for history-page [Needpix](https://www.needpix.com/photo/download/1861386/storytelling-story-telling-tale-storyteller-fantasy-imagination-literature-kids)
 
 ### Acknowledgements
 
