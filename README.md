@@ -1,12 +1,18 @@
 # Paddy's day greeting
 
+The goal of this project is to remind the history and tradition of Saint Patrick day and at the same time having fun through a quiz game.
  
 ## UX
- 
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+The ideal user of our website is:
+* An English or Gaelic speaking person.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
+### User Stories
+
+- As a new visitor of the website, I want to learn more the history and tradition of Saint Patrick day.
+- As a new visitor of the website, I want to challenge my knowledge about why we celebrate the 17th of March.
+- As a new visitor of the website, I want to find a game to play and to have fun with.
+- As a new visitor of the website, I want to get in touch with the team 25.
+- As a returning visitor of the website, I want to ask to team 25 for more games to play.
 
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
