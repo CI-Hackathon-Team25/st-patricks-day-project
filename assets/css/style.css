@@ -1,13 +1,11 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Irish+Grover&family=Josefin+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Irish+Grover&family=Josefin+Sans&display=swap");
 .header-logo {
-    text-align: center;
+  text-align: center;
 }
 
 .nav-btn {
   margin: 20px;
   text-align: center;
-
 }
 
 a:link {
@@ -15,15 +13,15 @@ a:link {
   font-size: x-large;
 }
 
-
 nav ul li {
-    list-style-type: none;
-}
-#background-storytelling{
-    background-size: cover;
-    background: url('../img/background-storytelling-historypage.jpg') no-repeat center;
-    height: 100%;
-    position: relative;
-    width: 100%;
+  list-style-type: none;
 }
 
+#background-storytelling {
+  background-size: cover;
+  background: url("../img/background-storytelling-historypage.jpg") no-repeat
+    center;
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
