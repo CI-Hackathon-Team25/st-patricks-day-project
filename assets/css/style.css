@@ -19,6 +19,12 @@ a:link {
 nav ul li {
     list-style-type: none;
 }
+h3{
+  font-family: 'Irish Grover', cursive;
+}
+h4{
+    font-family: 'Indie Flower', cursive;
+}
 
 #background-storytelling{
     background-size: cover;
@@ -26,10 +32,5 @@ nav ul li {
     height: 100%;
     position: relative;
     width: 100%;
-}
-.btn-success{
-    align-items: center;
-    text-align: center;
-    justify-content: center;
 }
 
