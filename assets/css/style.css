@@ -1,5 +1,12 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
 
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Irish+Grover&family=Josefin+Sans&display=swap');
+
 .header-logo {
     text-align: center;
 }
@@ -26,9 +33,9 @@ h4{
     font-family: 'Indie Flower', cursive;
 }
 
-#background-storytelling{
+#storytelling {
     background-size: cover;
-    background: url("../img/bg-historypage.jpg") no-repeat center;
+    background-image: url("../img/bg-historypage.jpg") no-repeat center;
     height: 100%;
     position: relative;
     width: 100%;
