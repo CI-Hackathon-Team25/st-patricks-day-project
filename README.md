@@ -21,8 +21,8 @@ This website is:
 
 ##### Wireframe mockups: 
 - [Home page]()
-- [History page]()
-- [Info page]()
+- [History page](/assets/wireframes/Historypage.pdf)
+- [About page](/assets/wireframes/Aboutpage.pdf)
 - [Quiz page]()
 
 ## Features
@@ -41,6 +41,7 @@ This website is:
 - [BootstrapCDN](https://www.bootstrapcdn.com/) to simplify the structure of the website and make the website responsive.
 - [Google Fonts](https://fonts.google.com/) to style the website fonts.
 - [AutoPrefixer](https://autoprefixer.github.io/) make sure the css code is valid for all browsers.
+- [EmailJS](https://www.emailjs.com/docs/sdk/installation/) to add functionality to our contact form.
 
 
 ## Testing
@@ -84,5 +85,4 @@ In addition, if it is not obvious, you should also describe how to run your code
 - The background image for history page [Needpix](https://www.needpix.com/photo/download/1861386/storytelling-story-telling-tale-storyteller-fantasy-imagination-literature-kids)
 
 ### Acknowledgements
-
 - 
