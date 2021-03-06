@@ -1,13 +1,19 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Irish+Grover&family=Josefin+Sans&display=swap');
 .header-logo {
     text-align: center;
+=======
+.nav-btn {
+  margin: 20px;
+  text-align: center;
+
 }
 
-nav ul {
-    display: flex;
-    margin-bottom: 0;
-    padding-left: 0;
+a:link {
+  text-decoration: none;
+  font-size: x-large;
 }
+
 
 nav ul li {
     list-style-type: none;
@@ -19,3 +25,4 @@ nav ul li {
     position: relative;
     width: 100%;
 }
+
