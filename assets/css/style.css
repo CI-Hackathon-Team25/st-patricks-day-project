@@ -25,3 +25,24 @@ nav ul li {
   position: relative;
   width: 100%;
 }
+
+nav button {
+  border: none;
+  background-color: inherit;
+}
+
+#shamrock-nav {
+  min-width: 200px;
+  min-height: 200px;
+  width: 50%;
+  height: auto;
+}
+
+.grow {
+  transition: transform 1s;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+.grow:hover {
+  transform: scale(1.2);
+}
