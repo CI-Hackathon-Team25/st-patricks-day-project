@@ -35,7 +35,7 @@ h4{
 
 #storytelling {
     background-size: cover;
-    background-image: url("../img/bg-historypage.jpg") no-repeat center;
+    background-image: url('../img/bg-historypage.jpg') no-repeat center;
     height: 100%;
     position: relative;
     width: 100%;
