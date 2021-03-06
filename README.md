@@ -1,25 +1,36 @@
 # Paddy's day greeting
 
-The goal of this project is to remind the history and tradition of Saint Patrick day and at the same time having fun through a quiz game.
- 
+The goal of this project is to remind the history and tradition of Saint Patrick day and at the same make users enjoy with a quiz game. Our goal as Team 25 is to learn how to collaborate as a group in a common project. The aim of this project is also to be contacted by users and developers to have their feedback or the request to develop a game for them.
+
 ## UX
 The ideal user of our website is:
 * An English or Gaelic speaking person.
+This website is:
+* Easy to browse.
+* The informations provided are simple and displayed in a funny way.
+* Guides the users to play a quiz game and to get in touch with the Team 25.
 
 ### User Stories
 
-- As a new visitor of the website, I want to learn more the history and tradition of Saint Patrick day.
+- As a new visitor of the website, I want to learn more about the history and tradition of Saint Patrick day.
 - As a new visitor of the website, I want to challenge my knowledge about why we celebrate the 17th of March.
 - As a new visitor of the website, I want to find a game to play and to have fun with.
-- As a new visitor of the website, I want to get in touch with the team 25.
-- As a returning visitor of the website, I want to ask to team 25 for more games to play.
+- As a new visitor of the website, I want to get in touch with Team 25 and make my request.
+- As a new visitor of the website, I want to leave my greeting message so that other users can read it. 
+- As a returning visitor of the website, I want to ask to Team 25 for more games to play.
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+##### Wireframe mockups: 
+- [Home page]()
+- [History page]()
+- [Info page]()
+- [Quizz page]()
 
 ## Features
+The main menu allows the users to navigate to the various sections of the site. The menu is positioned central in the page and four-leaf cloves indicate the different pages. 
+The greeting generator allows users to leave their greet and at the same time to read the greetings of their friends. 
+The quiz game allows the users to challenge themselves and provides them a final score.
+The info section describes us as a Team and a contact form allows users to get in touch with us.
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
- 
 ### Existing Features
 - Feature 1 - allows users X to achieve Y, by having them fill out Z
 - ...
@@ -29,14 +40,13 @@ For some/all of your features, you may choose to reference the specific project 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
-- Another feature idea
+- The initial idea was to create a backend website with Django.
 
 ## Technologies Used
-
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
+- This project uses HTML, CSS and Javascript programming languages.
+- [BootstrapCDN](https://www.bootstrapcdn.com/) to simplify the structure of the website and make the website responsive.
+- [Google Fonts](https://fonts.google.com/) to style the website fonts.
+- [AutoPrefixer](https://autoprefixer.github.io/) make sure the css code is valid for all browsers.
 
 
 ## Testing
@@ -77,7 +87,7 @@ In addition, if it is not obvious, you should also describe how to run your code
 - The text for history page was written by Marta and extracted from [Wikipedia](https://en.wikipedia.org/wiki/Saint_Patrick%27s_Day)
 
 ### Media
-- The background image for history-page [Needpix](https://www.needpix.com/photo/download/1861386/storytelling-story-telling-tale-storyteller-fantasy-imagination-literature-kids)
+- The background image for history page [Needpix](https://www.needpix.com/photo/download/1861386/storytelling-story-telling-tale-storyteller-fantasy-imagination-literature-kids)
 
 ### Acknowledgements
 
