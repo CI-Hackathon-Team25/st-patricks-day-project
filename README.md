@@ -1,45 +1,88 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Paddy's day greeting
 
-Welcome USER_NAME,
+The goal of this project is to remind the history and tradition of Saint Patrick day and at the same make users enjoy with a quiz game. Our goal as Team 25 is to learn how to collaborate as a group in a common project. The aim of this project is also to be contacted by users and developers to have their feedback or the request to develop a game for them.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+## UX
+The ideal user of our website is:
+* An English or Gaelic speaking person.
+This website is:
+* Easy to browse.
+* The informations provided are simple and displayed in a funny way.
+* Guides the users to play a quiz game and to get in touch with the Team 25.
 
-## Gitpod Reminders
+### User Stories
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+- As a new visitor of the website, I want to learn more about the history and tradition of Saint Patrick day.
+- As a new visitor of the website, I want to challenge my knowledge about why we celebrate the 17th of March.
+- As a new visitor of the website, I want to find a game to play and to have fun with.
+- As a new visitor of the website, I want to get in touch with Team 25 and make my request.
+- As a new visitor of the website, I want to leave my greeting message so that other users can read it. 
+- As a returning visitor of the website, I want to ask to Team 25 for more games to play.
 
-`python3 -m http.server`
+##### Wireframe mockups: 
+- [Home page]()
+- [History page]()
+- [Info page]()
+- [Quiz page]()
 
-A blue button should appear to click: *Make Public*,
+## Features
+* The main menu allows the users to navigate to the various sections of the site. The menu is positioned central in the page and four-leaf cloves indicate the different pages. 
+* The header Logo exists on [every page](../index.html) on the top-left and allows users to come back to the home page as they would expect.
+* The greeting generator allows users to leave their greetings. Each time the page loads a different greet is displayed.
+* The quiz game allows the users to challenge themselves and provides them a final score.
+* The info section provides inforation about Team 25.
+* A contact form allows users to get in touch with the Team 25 and make their request.
 
-Another blue button should appear to click: *Open Browser*.
+### Features Left to Implement
+- The initial idea was to create a backend website with Django.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## Technologies Used
+- This project uses HTML, CSS and Javascript programming languages.
+- [BootstrapCDN](https://www.bootstrapcdn.com/) to simplify the structure of the website and make the website responsive.
+- [Google Fonts](https://fonts.google.com/) to style the website fonts.
+- [AutoPrefixer](https://autoprefixer.github.io/) make sure the css code is valid for all browsers.
 
-A blue button should appear to click: *Make Public*,
 
-Another blue button should appear to click: *Open Browser*.
+## Testing
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
-## Updates Since The Instructional Video
+Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+1. Contact form:
+    1. Go to the "Contact Us" page
+    2. Try to submit the empty form and verify that an error message about the required fields appears
+    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
+    4. Try to submit the form with all inputs valid and verify that a success message appears.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+## Deployment
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
+- Different values for environment variables (Heroku Config Vars)?
+- Different configuration files?
+- Separate git branch?
 
---------
+In addition, if it is not obvious, you should also describe how to run your code locally.
 
-Happy coding!
+
+## Credits
+
+### Content
+- The text for history page was written by Marta and extracted from [Wikipedia](https://en.wikipedia.org/wiki/Saint_Patrick%27s_Day)
+
+### Media
+- The background image for history page [Needpix](https://www.needpix.com/photo/download/1861386/storytelling-story-telling-tale-storyteller-fantasy-imagination-literature-kids)
+
+### Acknowledgements
+
+- 
