@@ -23,21 +23,15 @@ This website is:
 - [Home page]()
 - [History page]()
 - [Info page]()
-- [Quizz page]()
+- [Quiz page]()
 
 ## Features
-The main menu allows the users to navigate to the various sections of the site. The menu is positioned central in the page and four-leaf cloves indicate the different pages. 
-The greeting generator allows users to leave their greet and at the same time to read the greetings of their friends. 
-The quiz game allows the users to challenge themselves and provides them a final score.
-The info section describes us as a Team and a contact form allows users to get in touch with us.
-
-### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
-
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+* The main menu allows the users to navigate to the various sections of the site. The menu is positioned central in the page and four-leaf cloves indicate the different pages. 
+* The header Logo exists on [every page](../index.html) on the top-left and allows users to come back to the home page as they would expect.
+* The greeting generator allows users to leave their greetings. Each time the page loads a different greet is displayed.
+* The quiz game allows the users to challenge themselves and provides them a final score.
+* The info section provides inforation about Team 25.
+* A contact form allows users to get in touch with the Team 25 and make their request.
 
 ### Features Left to Implement
 - The initial idea was to create a backend website with Django.
