@@ -20,19 +20,27 @@ This website is:
 - As a returning visitor of the website, I want to ask to Team 25 for more games to play.
 
 ##### Wireframe mockups: 
-- [Home page](/assets/wireframes/Homepage.png)
-- [History page](/assets/wireframes/Historypage.pdf)
-- [About page](/assets/wireframes/Aboutpage.pdf)
-- [Quiz page]()
-- [Greetings generator](/assets/wireframes/Greetings-generator.png)
+- ![Home page](../wireframes/Homepage.png)
+- ![History page](../wireframes/Historypage.pdf)
+- ![About page](../wireframes/Aboutpage.pdf)
+- ![Quiz page]()
+- ![Greetings generator](../wireframes/Greetings-generator.png)
 
 ## Features
 * The main menu allows the users to navigate to the various sections of the site. The menu is positioned central in the page and four-leaf cloves indicate the different pages. 
 * The header Logo exists on [every page](../index.html) on the top-left and allows users to come back to the home page as they would expect.
 * The greeting generator allows users to leave their greetings. Each time the page loads a different greet is displayed.
 * The quiz game allows the users to challenge themselves and provides them a final score.
-* The info section provides inforation about Team 25.
+* The info section provides information about Team 25.
 * A contact form allows users to get in touch with the Team 25 and make their request.
+
+## Surface 
+### colors: we used green color for call to action-buttons.
+The images, logo and clipart adhere to the theme of Saint Patrick day.
+### Google Fonts:
+- body: 'Josefin Sans', sans-serif.
+- headings: 'Irish Grover', cursive.
+- subheading: 'Indie Flower', cursive.
 
 ### Features Left to Implement
 - The initial idea was to create a backend website with Django.
@@ -47,30 +55,41 @@ This website is:
 
 ## Testing
 
-We tested the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+We tested the user stories manually. 
 
-1. Contact form:
-    1. Go to the "Contact Us" page
+1. About us form:
+    1. Go to the "About us" page
     2. Try to submit the empty form and verify that an error message about the required fields appears
     3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+    4. Try to submit the form with all inputs valid and verify that a success message appears
+    5. Try to test it and I received an email in my email box ![Test emailJS](../img/test-email.png)
+
+2. Quiz game behaves as expected and returns a final score.
+3. The greeting function has been tested and works accordingly ![Greeting-function](../img/greeting-function-prototype.png) 
 
 Our project looks responsive on different browsers and screen sizes.
 
 ## Deployment
 
 We deployed the project to a hosting platform (GitHub Pages).
+At the moment of submitting this project the Development Branch and Master Branch are identical. 
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
 - We used different editors: Gitpod and VS Code.
 - We used separated git branches.
+- We used the following commands: **git checkout -b new_branch_name** (this created a new branch with the name we choose(ex. marta, debbie, history etc.) **git pull upstream master** (this updated our current branch to be in sync with the latest version of the master branch)
+**git branch -a** (this showed us a list of all the branches currently in development and the one that we were currently editing was highlighted with an asterisk) **git checkout branch_name** (This command will switch your development to the branch you choose)
+**git branch -u origin/name of the branch** (this set the branch we were currently checked out in to track the remote branch)
+**git push** (this push all the changes to the remote repo)
 
-In addition, if it is not obvious, you should also describe how to run your code locally.
-
+Reading and troubleshooting on cloning a repository from GitHub [Article](https://help.github.com/en/articles/cloning-a-repository).
+Reading about how to create git branches [Git branches](https://learngitbranching.js.org).
 
 ## Credits
 
 ### Content
+- The text for the Home page was created by Arland.
+- The greetings were created by Andrew.
+- The questions and text for the quiz page was created by Deborah.
 - The text for history page was written by Marta and extracted from [Wikipedia](https://en.wikipedia.org/wiki/Saint_Patrick%27s_Day)
 
 ### Media
