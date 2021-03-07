@@ -36,6 +36,19 @@ nav ul li {
   list-style-type: none;
 }
 
+.card {
+  margin-right: 0;
+}
+
+.card-img-top {
+  text-align: center;
+}
+
+.card-img-top img {
+  width: 150px;
+  height: auto;
+}
+
 #background-storytelling {
   background-size: cover;
   background: url("../img/background-storytelling-historypage.jpg") no-repeat
