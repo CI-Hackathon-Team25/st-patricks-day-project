@@ -1,57 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<meta name="Description" content="Enter your description here"/>
-<link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-32x32.png">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-<link rel="stylesheet" href="assets/css/style.css">
-<title>St Patricks Day Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="icon" type="image/svg" sizes="32x32" href="assets/img/rainbow.svg">
+    <link rel="icon" type="image/svg" sizes="16x16" href="assets/img/rainbow.svg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/quiz.css">
+    <title>Happy Paddy's Day! │ Home</title>
 </head>
 
-<body>
-
+<body class="bg-light">
+    <div class="page-container">
     <!-- header section -->
     <header>
         <nav class="navbar navbar-light bg-light">
             <a class="navbar-brand" href="index.html">
-            <!-- placeholder logo -->
-              <img src="assets/img/ireland.svg" width="60" height="60" alt="home button">
+                <!-- placeholder logo -->
+                <img class="header-icon" src="assets/img/rainbow.svg" alt="home button">
             </a>
-            <div class="container" id="header-text">
-                <h1>Happy St Patrick's Day! / Lá Fhéile Pádraig sona duit!</h1>
-            </div>
-          </nav>
+            <h2 class="text-center" id="greetText">Happy St Patrick's Day!</h2>
+            <button onclick="greet()"><img class="header-icon" src="assets/img/green-beer.svg" alt="click for randomised greeting"></button>
+        </nav>
     </header>
 
-    <!-- navigation section -->
-    <div class="container">
-        <div class="row">
-            <div class="col-sm nav-btn">
-                <a href="history.html">
-                    <img src="assets/img/clover.svg" width="150" height="150" alt="open history page">
-                    <div>History</div>
-                </a>
-            </div>
-            <div class="col-sm nav-btn">
-                <a href="quiz.html">
-                    <img src="assets/img/clover.svg" width="150" height="150" alt="open quiz page">
-                    <div>Quiz</div>
-                </a>
-            </div>
-            <div class="col-sm nav-btn">
-                <a href="about.html">
-                    <img src="assets/img/clover.svg" width="150" height="150" alt="open about page">
-                    <div>About</div>
-                </a>
+    <!-- welcome section -->
+    <div class="container welcome-container">
+        <div class="card-img-top pt-3">
+            <img src="assets/img/irish.svg" alt="irish man">
+        </div>
+        <div class="card text-center">
+            <div class="card-body">
+                <h2 id="welcome-greeting">
+                    Are you celebrating St Paddy's Day virtually this year?
+                </h2>
+                <p>Well you came to the right place!
+                Click on each clover to find out more about the story of St Patrick and the tradition behind this celebration, a fun quiz to test your knowledge about Paddy's Day or maybe you want to learn more about the team behind this site. The choice is yours!<br><br>Speak Irish? Grab yourself a pint in the upper corner, it's on us 😉</p>
             </div>
         </div>
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <!-- navigation section -->
+    <div class="container svg-animation-container text-center">
+        <svg id="shamrock-nav" viewBox="-100 -100 1000 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g id="shamrock" >
+            <path id="Vector" d="M383.08 308.119C383.08 308.119 402.324 540.579 357.065 742.445C356.466 745.111 354.09 747 351.358 747H281.759C277.373 747 274.546 742.343 276.587 738.462C295.514 702.466 365.048 553.527 365.048 308.119H383.08Z" fill="#388E3C"/>
+            <!-- left clover vectors -->
+            <g id="left-clover" class="grow">
+                <a href="history.html">
+                    <path id="Vector_2" d="M101.279 484.609C102.292 482.076 100.681 479.287 97.9819 478.897C82.451 476.655 37.968 466.416 11.9222 421.304C-16.5542 371.981 8.48196 312.202 60.4948 282.174C120.415 247.578 217.763 252.577 348.196 335.985C349.353 336.725 350.093 338.006 350.156 339.377C357.173 494.038 312.829 580.841 252.909 615.436C200.896 645.465 136.607 637.258 108.131 587.936C82.0819 542.823 95.4564 499.18 101.279 484.609Z" fill="#4CAF50"/>
+                    <path id="Vector_3" d="M372.769 339.195C372.706 337.823 371.967 336.542 370.81 335.803C277.178 275.928 200.596 256.46 142.668 263.039C193.365 268.231 254.565 290.395 325.574 335.803C326.731 336.542 327.471 337.823 327.533 339.195C334.551 493.856 290.207 580.658 230.286 615.254C217.434 622.674 203.833 627.75 190.208 630.456C217.374 636.256 248.146 631.059 275.522 615.254C335.442 580.658 379.787 493.856 372.769 339.195Z" fill="#43A047"/>
+                    <path id="Vector_4" d="M275.471 378.374L156.733 449.017C151.539 452.107 149.833 458.821 152.923 464.015C154.97 467.456 158.606 469.365 162.338 469.365C164.241 469.365 166.168 468.869 167.922 467.825L286.66 397.184C291.854 394.094 293.559 387.378 290.469 382.185C287.379 376.991 280.666 375.284 275.471 378.374Z" fill="#388E3C"/>
+                </a>
+            </g>
+            <!-- right clover vectors -->
+            <g id="right-clover" class="grow">
+                <a href="about.html">
+                    <path id="Vector_5" d="M622.614 484.427C621.597 481.894 623.215 479.104 625.928 478.715C641.534 476.472 686.233 466.233 712.405 421.121C741.02 371.799 715.862 312.02 663.597 281.991C603.386 247.396 505.566 252.394 374.501 335.803C373.338 336.542 372.595 337.823 372.533 339.195C365.48 493.856 410.04 580.658 470.253 615.254C522.518 645.282 587.117 637.076 615.734 587.753C641.905 542.64 628.466 498.997 622.614 484.427Z" fill="#4CAF50"/>
+                    <path id="Vector_6" d="M663.597 281.991C636.165 266.23 600.925 258.693 558.294 263.039C581.172 265.624 601.154 272.23 618.143 281.991C670.408 312.02 695.565 371.799 666.95 421.121C640.777 466.233 596.078 476.472 580.473 478.715C577.759 479.104 576.141 481.894 577.16 484.427C583.012 498.997 596.45 542.64 570.278 587.753C556.724 611.116 535.091 625.239 510.525 630.458C552.245 638.708 594.187 624.889 615.732 587.753C641.905 542.642 628.465 498.999 622.614 484.427C621.597 481.894 623.215 479.104 625.928 478.715C641.534 476.472 686.233 466.233 712.405 421.121C741.021 371.797 715.862 312.02 663.597 281.991Z" fill="#43A047"/>
+                    <path id="Vector_7" d="M591.771 447.514L473.033 376.872C467.838 373.782 461.124 375.489 458.035 380.68C454.945 385.874 456.65 392.589 461.843 395.678L580.582 466.321C582.336 467.364 584.263 467.861 586.167 467.861C589.898 467.861 593.535 465.952 595.581 462.513C598.671 457.319 596.965 450.604 591.771 447.514Z" fill="#388E3C"/>
+                </a>
+            </g>
+            <!-- top clover vectors -->
+            <g id="top-clover" class="grow">
+                <a href="quiz.html">
+                    <path id="Vector_8" d="M369.96 46.3957C371.643 48.5696 374.851 48.5696 376.533 46.3957C386.208 33.8878 417.211 0 469.126 0C525.887 0 565.005 52.3177 565.005 113.246C565.005 183.438 512.182 266.428 375.2 338.713C373.984 339.355 372.511 339.355 371.295 338.713C234.311 266.428 181.489 183.438 181.489 113.246C181.489 52.3177 220.607 0 277.368 0C329.283 0 360.286 33.8878 369.96 46.3957Z" fill="#4CAF50"/>
+                    <path id="Vector_9" d="M469.126 0C460.546 0 452.548 0.941045 445.113 2.54301C490.255 13.6824 519.924 60.1919 519.924 113.248C519.924 179.805 472.416 257.87 350.708 327.405C357.352 331.201 364.205 334.973 371.297 338.715C372.512 339.357 373.986 339.357 375.201 338.715C512.182 266.428 565.005 183.438 565.005 113.246C565.005 52.3177 525.887 0 469.126 0Z" fill="#43A047"/>
+                    <path id="Vector_10" d="M374.251 94.2693C368.208 94.2693 363.309 99.1686 363.309 105.212V227.707C363.309 233.75 368.208 238.649 374.251 238.649C380.294 238.649 385.194 233.75 385.194 227.707V105.212C385.194 99.1686 380.294 94.2693 374.251 94.2693Z" fill="#388E3C"/>
+                </a>
+                </g>
+            </g>
+        </svg> 
+        <!-- clover labels on mobile -->
+        <div class="container m-p-0 nav-label">
+            <span id="history-label">History</span>
+            <span id="quiz-label">Quiz</span>
+            <span id="about-label">About</span>
+        </div>
+    </div>
+
+    <!-- footer section -->
+    <footer>
+        <div class="container">
+            <a href="https://github.com/CI-Hackathon-Team25/st-patricks-day-project"><i class="fab fa-github"></i></a>
+            <a href="https://hackathon.codeinstitute.net/teams/46/"><i class="far fa-circle"></i></a>
+            <p>© The Lucky Charms 2021</p>
+        </div>
+    </footer>
+</div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
+    </script>
+    <!-- include the Javascript file that handles the "greet" function -->
+    <script src="assets/js/scripts.js"></script>
 </body>
+
 </html>

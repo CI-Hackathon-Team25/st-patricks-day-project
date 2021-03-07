@@ -1,6 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Irish+Grover&family=Josefin+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Irish+Grover&family=Josefin+Sans&Cormorant+Garamond&display=swap");
+
 .header-logo {
   text-align: center;
+}
+
+.header-icon {
+  width: 30px;
+  height: 30px;
 }
 
 .nav-btn {
@@ -8,13 +14,52 @@
   text-align: center;
 }
 
+.navbar {
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.068);
+}
+
+.navbar-brand {
+  margin-right: 0;
+  padding: 0;
+}
+
+.navbar h2 {
+  font-size: 1.2rem;
+}
+
+.navbar button {
+  padding: 0;
+}
+
 a:link {
   text-decoration: none;
   font-size: x-large;
 }
 
-nav ul li {
-  list-style-type: none;
+.welcome-container {
+  padding: 16px 30px;
+}
+
+.card {
+  margin-right: 0;
+  background-color: #fff;
+  border: none;
+  border-radius: 25px;
+  box-shadow: -8px 8px 12px 0 rgba(0, 0, 0, 0.068),
+    12px -12px 16px rgba(255, 255, 255, 0.1);
+}
+
+#welcome-greeting {
+  font-size: 1.2rem;
+}
+
+.card-img-top {
+  text-align: center;
+}
+
+.card-img-top img {
+  width: 150px;
+  height: auto;
 }
 
 #background-storytelling {
@@ -24,4 +69,211 @@ nav ul li {
   height: 100%;
   position: relative;
   width: 100%;
+}
+
+nav button {
+  border: none;
+  background-color: inherit;
+}
+
+#shamrock-nav {
+  min-width: 200px;
+  min-height: 200px;
+  width: 50%;
+  height: auto;
+  position: relative;
+}
+
+.grow {
+  transition: transform 0.5s;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+.grow:hover {
+  transform: scale(1.1);
+}
+
+.m-p-0,
+.m-p-0 * {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-label {
+  font-family: "Indie Flower";
+  font-weight: bold;
+  color: #4caf50;
+}
+
+/* default mobile styling */
+#history-label {
+  position: relative;
+  right: 60px;
+  bottom: 90px;
+}
+
+#quiz-label {
+  position: relative;
+  right: 10px;
+  bottom: 203px;
+}
+
+#about-label {
+  position: relative;
+  left: 32px;
+  bottom: 87px;
+}
+
+/* tablet styling */
+@media only screen and (min-width: 768px) {
+  .header-icon {
+    width: 45px;
+    height: 45px;
+  }
+
+  .navbar h2 {
+    font-size: 2rem;
+  }
+
+  .card-img-top img {
+    width: 230px;
+    height: auto;
+  }
+
+  #welcome-greeting {
+    font-size: 1.5rem;
+  }
+
+  .card p {
+    font-size: 1.2rem;
+  }
+
+  .nav-label {
+    font-size: 2rem;
+  }
+
+  #history-label {
+    position: relative;
+    right: 100px;
+    bottom: 160px;
+  }
+
+  #quiz-label {
+    position: relative;
+    right: 15px;
+    bottom: 350px;
+  }
+
+  #about-label {
+    position: relative;
+    left: 60px;
+    bottom: 155px;
+  }
+}
+
+/* laptop styling */
+@media only screen and (min-width: 1024px) {
+  .header-icon {
+    width: 60px;
+    height: 60px;
+  }
+
+  .navbar h2 {
+    font-size: 2.5rem;
+  }
+
+  .card-img-top img {
+    width: 300px;
+    height: auto;
+  }
+
+  #welcome-greeting {
+    font-size: 2rem;
+  }
+
+  .card p {
+    font-size: 1.4rem;
+  }
+
+  .nav-label {
+    font-size: 2.5rem;
+  }
+
+  #history-label {
+    position: relative;
+    right: 120px;
+    bottom: 200px;
+  }
+
+  #quiz-label {
+    position: relative;
+    right: 20px;
+    bottom: 470px;
+  }
+
+  #about-label {
+    position: relative;
+    left: 80px;
+    bottom: 198px;
+  }
+}
+
+/* desktop styling */
+@media only screen and (min-width: 1200px) {
+  .navbar h2 {
+    font-size: 3rem;
+  }
+
+  .nav-label {
+    font-size: 2.8rem;
+  }
+
+  .card-img-top img {
+    width: 360px;
+    height: auto;
+  }
+
+  #welcome-greeting {
+    font-size: 2.4rem;
+  }
+
+  .card p {
+    font-size: 1.3rem;
+  }
+
+  #history-label {
+    position: relative;
+    right: 150px;
+    bottom: 250px;
+  }
+
+  #quiz-label {
+    position: relative;
+    right: 25px;
+    bottom: 550px;
+  }
+
+  #about-label {
+    position: relative;
+    left: 90px;
+    bottom: 243px;
+  }
+}
+
+.fa-github {
+  color: black;
+  font-size: 2rem;
+}
+
+.fa-circle {
+  color: orangered;
+  font-size: 2rem;
+}
+
+footer {
+  margin: 0;
+}
+
+footer div {
+  text-align: center;
 }
