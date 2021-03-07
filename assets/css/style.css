@@ -1,5 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Irish+Grover&family=Josefin+Sans&Cormorant+Garamond&display=swap");
-
+/* general style */
+p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+}
+h3{
+    font-family: 'Irish Grover', cursive;
+}
+h4{
+    font-family: 'Indie Flower', cursive;
+}
 .header-logo {
   text-align: center;
 }
@@ -61,19 +71,31 @@ a:link {
   width: 150px;
   height: auto;
 }
-
+/* background image history page */
+#storytelling{
+    position:relative;
+    z-index: 1;
+}
 #background-storytelling {
   background-size: cover;
   background: url("../img/background-storytelling-historypage.jpg") no-repeat
     center;
   height: 100%;
-  position: relative;
+  opacity: 0.2;
+  position: absolute;
   width: 100%;
+  z-index: -1;
+}
+.submit{
+    padding-bottom: 30px;
 }
 
 nav button {
   border: none;
   background-color: inherit;
+}
+.button-history{
+    padding-bottom: 20px;
 }
 
 #shamrock-nav {
