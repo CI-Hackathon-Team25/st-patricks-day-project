@@ -78,7 +78,7 @@ a:link {
 }
 #background-storytelling {
   background-size: cover;
-  background: url("../img/background-storytelling-historypage.jpg") no-repeat
+  background: url("../img/bg-historypage.jpg") no-repeat
     center;
   height: 100%;
   opacity: 0.2;
@@ -86,6 +86,7 @@ a:link {
   width: 100%;
   z-index: -1;
 }
+
 .submit{
     padding-bottom: 30px;
 }
