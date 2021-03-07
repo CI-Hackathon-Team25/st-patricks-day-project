@@ -39,10 +39,21 @@ nav button {
 }
 
 .grow {
-  transition: transform 1s;
+  transition: transform 0.5s;
   transform-origin: center;
   transform-box: fill-box;
 }
 .grow:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
+}
+
+.nav-label {
+  font-family: "Indie Flower";
+  font-weight: bold;
+}
+
+/* this class uses the filter function to turn our arrows green */
+.green-label {
+  filter: invert(60%) sepia(26%) saturate(899%) hue-rotate(73deg)
+    brightness(91%) contrast(97%);
 }
