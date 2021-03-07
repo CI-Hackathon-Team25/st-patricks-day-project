@@ -22,18 +22,38 @@ The ideal user of our website is:
 
 ##### Wireframe mockups:
 
-- [Home page]()
-- [History page]()
-- [Info page]()
-- [Quiz page]()
+- ![Home page](assets/wireframes/homepage.png)
+Here we see a mockup of the homepage. The user is presented with three shamrocks. These shamrocks will respond to the user hovering over them. Clicking the shamrocks will navigate the user to the various pages on the site.
+
+- ![History page](assets/wireframes/history.png)
+An early mockup of the history page. Here, the user can learn some facts about the St Patricks Day celebrations.
+
+- ![About page](assets/wireframes/about.png)
+The about page allows the user to make contact with the sites developers.
+
+- ![Greetings generator](assets/wireframes/greetings.png)
+Here we see a mockup of the greeting generator. The user will click a button which will then display a random Irish greeting.
+
+[Wireframe image](assets/img/wireframe.png) 
 
 ## Features
+* The main menu allows the users to navigate to the various sections of the site. The menu is positioned central in the page and four-leaf cloves indicate the different pages. 
+* The header Logo exists on [every page](../index.html) on the top-left and allows users to come back to the home page as they would expect.
+* The greeting generator allows users to leave their greetings. Each time the page loads a different greet is displayed.
+* The quiz game allows the users to challenge themselves and provides them a final score.
+* The info section provides information about Team 25.
+* A contact form allows users to get in touch with the Team 25 and make their request.
 
-- The main menu allows the users to navigate to the various sections of the site. The menu is positioned central in the page and 3 clover leaves indicate the different pages.
-- The header Logo exists on [every page](../index.html) on the top-left and allows users to come back to the home page as they would expect.
-- The quiz game allows the users to challenge themselves and provides them a final score.
-- The info section provides inforation about Team 25.
-- A contact form allows users to get in touch with the Team 25 and make their request.
+## Surface 
+### colors: we used green color for call to action-buttons.
+The images, logo and clipart adhere to the theme of Saint Patrick day.
+### Google Fonts:
+- body: 'Josefin Sans', sans-serif.
+- headings: 'Irish Grover', cursive.
+- subheading: 'Indie Flower', cursive.
+
+### Features Left to Implement
+- The initial idea was to create a backend website with Django.
 
 ## Technologies Used
 
@@ -41,45 +61,59 @@ The ideal user of our website is:
 - [BootstrapCDN](https://www.bootstrapcdn.com/) to simplify the structure of the website and make the website responsive.
 - [Google Fonts](https://fonts.google.com/) to style the website fonts.
 - [AutoPrefixer](https://autoprefixer.github.io/) make sure the css code is valid for all browsers.
-- [FontAwesomeCDN] (https://fontawesome.com/) to provide the social media icons in the footer.
-- [FlatIcon] (https://www.flaticon.com/) to provide the illustrations for the page and also the header and navigation icons.
+- [EmailJS](https://www.emailjs.com/docs/sdk/installation/) to add functionality to our contact form.
+
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+We have checked the validity of the code with: 
+- [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+- [W3C Markup Validation Service](https://validator.w3.org/)
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+We tested the user stories manually. 
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+1. About us form:
+    1. Go to the "About us" page
+    2. Try to submit the empty form and verify that an error message about the required fields appears
+    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
+    4. Try to submit the form with all inputs valid and verify that a success message appears
+    5. Try to test it and I received an email in my email box ![Test emailJS](../img/test-email.png)
 
-1. Contact form:
-   1. Go to the "Contact Us" page
-   2. Try to submit the empty form and verify that an error message about the required fields appears
-   3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-   4. Try to submit the form with all inputs valid and verify that a success message appears.
+2. Quiz game behaves as expected and returns a final score.
+3. The greeting function has been tested and works accordingly ![Greeting-function](https://github.com/CI-Hackathon-Team25/st-patricks-day-project/assets/img/greeting-function-prototype.png) 
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+Our project looks responsive on different browsers and screen sizes.
 
 ## Deployment
 
-The project was deployed through Github Pages with changes pushed from the master branch.
+We deployed the project to a hosting platform (GitHub Pages).
+At the moment of submitting this project the Development Branch and Master Branch are identical. 
+
+- We used different editors: Gitpod and VS Code.
+- We used separated git branches.
+- We used the following commands: **git checkout -b new_branch_name** (this created a new branch with the name we choose(ex. marta, debbie, history etc.) **git pull upstream master** (this updated our current branch to be in sync with the latest version of the master branch)
+**git branch -a** (this showed us a list of all the branches currently in development and the one that we were currently editing was highlighted with an asterisk) **git checkout branch_name** (This command will switch your development to the branch you choose)
+**git branch -u origin/name of the branch** (this set the branch we were currently checked out in to track the remote branch)
+**git push** (this push all the changes to the remote repo)
+
+Reading and troubleshooting on cloning a repository from GitHub [Article](https://help.github.com/en/articles/cloning-a-repository).
+Reading about how to create git branches [Git branches](https://learngitbranching.js.org).
 
 ## Credits
 
-Icons made by Freepik from [www.flaticon.com] (https://www.flaticon.com/)
-
 ### Content
-
+- The text for the Home page was created by Arland.
+- The greetings were created by Andrew.
+- The questions and text for the quiz page was created by Deborah and extracted from [National Geographic Kids](https://kids.nationalgeographic.com/games/quizzes/article/quiz-whiz-st-patricks-day)
 - The text for history page was written by Marta and extracted from [Wikipedia](https://en.wikipedia.org/wiki/Saint_Patrick%27s_Day)
+- Icons made by Freepik from [www.flaticon.com](https://www.flaticon.com/)
 
 ### Media
 
 - The background image for history page [Needpix](https://www.needpix.com/photo/download/1861386/storytelling-story-telling-tale-storyteller-fantasy-imagination-literature-kids)
+- The logo is from [Free Logo Maker](https://logomakr.com/6FZRHv)
 
 ### Acknowledgements
+- We would like to thank our tutor Tim Nelson for his precious advices.
 
--
+**_NOTE:_** This is for educational purposes.
