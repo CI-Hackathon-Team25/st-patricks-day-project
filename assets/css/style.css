@@ -305,3 +305,8 @@ footer div {
   padding-right: 20%;
   padding-top: 2%;
 }
+
+.info-section {
+  padding-top: 5px;
+  width: 100%;
+}
