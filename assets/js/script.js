@@ -1,5 +1,5 @@
 // Fill an array with strings. We can add to this array without changing other code
-let greetings = ["Tá áthas orm bualadh leat!", "Cén scéal?", "Conas atá tú?", "Dia duit!"];
+let greetings = ["Sláinte!", "Cén scéal?", "Conas atá tú?", "Dia duit!", "Fáilte!", "An bhfuil Gaeilge agat?", "Saol fada chugat!", "Sláinte is táinte!"];
 
 // initialise the variable used to select a greeting
 let greetingNumber = 0; 
