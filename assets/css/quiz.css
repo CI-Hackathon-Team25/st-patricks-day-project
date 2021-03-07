@@ -239,7 +239,6 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-top: 1px solid lightgrey;
 }
 /* styling for footer at end of quiz box */
 footer .total_que span {
@@ -347,9 +346,9 @@ footer button.show {
   background: #007bff;
 }
 /*styling for footer at the bottom of the page*/
-#main-footer{
-   bottom: 0;
-   height: 100px;
-   position: fixed;
-   width: 100%;
+#main-footer {
+  bottom: 0;
+  height: 100px;
+  position: fixed;
+  width: 100%;
 }
