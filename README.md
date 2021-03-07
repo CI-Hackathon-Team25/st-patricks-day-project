@@ -76,6 +76,8 @@ Icons made by Freepik from [www.flaticon.com] (https://www.flaticon.com/)
 
 - The text for history page was written by Marta and extracted from [Wikipedia](https://en.wikipedia.org/wiki/Saint_Patrick%27s_Day)
 
+- The questions for the quiz were written by Debbie and extracted from [we love quizzes](https://www.welovequizzes.com/st-patricks-day-quiz-questions-and-answers/)
+
 ### Media
 
 - The background image for history page [Needpix](https://www.needpix.com/photo/download/1861386/storytelling-story-telling-tale-storyteller-fantasy-imagination-literature-kids)
