@@ -20,10 +20,11 @@ This website is:
 - As a returning visitor of the website, I want to ask to Team 25 for more games to play.
 
 ##### Wireframe mockups: 
-- [Home page]()
+- [Home page](/assets/wireframes/Homepage.png)
 - [History page](/assets/wireframes/Historypage.pdf)
 - [About page](/assets/wireframes/Aboutpage.pdf)
 - [Quiz page]()
+- [Greetings generator](/assets/wireframes/Greetings-generator.png)
 
 ## Features
 * The main menu allows the users to navigate to the various sections of the site. The menu is positioned central in the page and four-leaf cloves indicate the different pages. 
@@ -46,11 +47,7 @@ This website is:
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+We tested the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
 
 1. Contact form:
     1. Go to the "Contact Us" page
@@ -58,20 +55,15 @@ For any scenarios that have not been automated, test the user stories manually a
     3. Try to submit the form with an invalid email address and verify that a relevant error message appears
     4. Try to submit the form with all inputs valid and verify that a success message appears.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+Our project looks responsive on different browsers and screen sizes.
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+We deployed the project to a hosting platform (GitHub Pages).
 
 In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
+- We used different editors: Gitpod and VS Code.
+- We used separated git branches.
 
 In addition, if it is not obvious, you should also describe how to run your code locally.
 
@@ -83,6 +75,7 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ### Media
 - The background image for history page [Needpix](https://www.needpix.com/photo/download/1861386/storytelling-story-telling-tale-storyteller-fantasy-imagination-literature-kids)
+- The logo is from [Free Logo Maker](https://logomakr.com/6FZRHv)
 
 ### Acknowledgements
-- 
+- We would like to thank our tutor Tim Nelson for his precious advices.
