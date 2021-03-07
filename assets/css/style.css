@@ -32,7 +32,9 @@ h3{
 h4{
     font-family: 'Indie Flower', cursive;
 }
-
+p{
+    font-family: 'Josefin Sans', sans-serif;
+}
 #storytelling {
     background-size: cover;
     background-image: url('../img/bg-historypage.jpg') no-repeat center;
