@@ -22,13 +22,11 @@ The ideal user of our website is:
 
 ##### Wireframe mockups:
 
-<<<<<<< HEAD
 ##### Wireframe mockups: 
-- ![Home page](../wireframes/Homepage.png)
-- ![History page](../wireframes/Historypage.pdf)
-- ![About page](../wireframes/Aboutpage.pdf)
-- ![Quiz page]()
-- ![Greetings generator](../wireframes/Greetings-generator.png)
+- [Home page](https://github.com/CI-Hackathon-Team25/st-patricks-day-project/assets/wireframes/Homepage.png)
+- [History page](https://github.com/CI-Hackathon-Team25/st-patricks-day-project/assets/wireframes/Historypage.pdf)
+- [About page](https://github.com/CI-Hackathon-Team25/st-patricks-day-project/assets/wireframes/Aboutpage.pdf)
+- [Greetings generator](https://github.com/CI-Hackathon-Team25/st-patricks-day-project/assets/wireframes/Greetings-generator.png)
 
 ## Features
 * The main menu allows the users to navigate to the various sections of the site. The menu is positioned central in the page and four-leaf cloves indicate the different pages. 
@@ -48,20 +46,6 @@ The images, logo and clipart adhere to the theme of Saint Patrick day.
 
 ### Features Left to Implement
 - The initial idea was to create a backend website with Django.
-=======
-- [Home page]()
-- [History page]()
-- [Info page]()
-- [Quiz page]()
-
-## Features
-
-- The main menu allows the users to navigate to the various sections of the site. The menu is positioned central in the page and 3 clover leaves indicate the different pages.
-- The header Logo exists on [every page](../index.html) on the top-left and allows users to come back to the home page as they would expect.
-- The quiz game allows the users to challenge themselves and provides them a final score.
-- The info section provides inforation about Team 25.
-- A contact form allows users to get in touch with the Team 25 and make their request.
->>>>>>> origin/master
 
 ## Technologies Used
 
@@ -69,41 +53,31 @@ The images, logo and clipart adhere to the theme of Saint Patrick day.
 - [BootstrapCDN](https://www.bootstrapcdn.com/) to simplify the structure of the website and make the website responsive.
 - [Google Fonts](https://fonts.google.com/) to style the website fonts.
 - [AutoPrefixer](https://autoprefixer.github.io/) make sure the css code is valid for all browsers.
-<<<<<<< HEAD
 - [EmailJS](https://www.emailjs.com/docs/sdk/installation/) to add functionality to our contact form.
 
-=======
-- [FontAwesomeCDN](https://fontawesome.com/) to provide the social media icons in the footer.
-- [FlatIcon](https://www.flaticon.com/) to provide the illustrations for the page and also the header and navigation icons.
->>>>>>> origin/master
 
 ## Testing
 
+We have checked the validity of the code with: 
+- [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+- [W3C Markup Validation Service](https://validator.w3.org/)
+
 We tested the user stories manually. 
 
-<<<<<<< HEAD
 1. About us form:
     1. Go to the "About us" page
     2. Try to submit the empty form and verify that an error message about the required fields appears
     3. Try to submit the form with an invalid email address and verify that a relevant error message appears
     4. Try to submit the form with all inputs valid and verify that a success message appears
     5. Try to test it and I received an email in my email box ![Test emailJS](../img/test-email.png)
-=======
-1. Contact form:
-   1. Go to the "Contact Us" page
-   2. Try to submit the empty form and verify that an error message about the required fields appears
-   3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-   4. Try to submit the form with all inputs valid and verify that a success message appears.
->>>>>>> origin/master
 
 2. Quiz game behaves as expected and returns a final score.
-3. The greeting function has been tested and works accordingly ![Greeting-function](../img/greeting-function-prototype.png) 
+3. The greeting function has been tested and works accordingly ![Greeting-function](https://github.com/CI-Hackathon-Team25/st-patricks-day-project/assets/img/greeting-function-prototype.png) 
 
 Our project looks responsive on different browsers and screen sizes.
 
 ## Deployment
 
-<<<<<<< HEAD
 We deployed the project to a hosting platform (GitHub Pages).
 At the moment of submitting this project the Development Branch and Master Branch are identical. 
 
@@ -116,22 +90,15 @@ At the moment of submitting this project the Development Branch and Master Branc
 
 Reading and troubleshooting on cloning a repository from GitHub [Article](https://help.github.com/en/articles/cloning-a-repository).
 Reading about how to create git branches [Git branches](https://learngitbranching.js.org).
-=======
-The project was deployed through Github Pages with changes pushed from the master branch.
->>>>>>> origin/master
 
 ## Credits
 
 Icons made by Freepik from [www.flaticon.com](https://www.flaticon.com/)
 
 ### Content
-<<<<<<< HEAD
 - The text for the Home page was created by Arland.
 - The greetings were created by Andrew.
-- The questions and text for the quiz page was created by Deborah.
-=======
-
->>>>>>> origin/master
+- The questions and text for the quiz page was created by Deborah and extracted from [National Geographic Kids](https://kids.nationalgeographic.com/games/quizzes/article/quiz-whiz-st-patricks-day)
 - The text for history page was written by Marta and extracted from [Wikipedia](https://en.wikipedia.org/wiki/Saint_Patrick%27s_Day)
 
 ### Media
@@ -140,9 +107,6 @@ Icons made by Freepik from [www.flaticon.com](https://www.flaticon.com/)
 - The logo is from [Free Logo Maker](https://logomakr.com/6FZRHv)
 
 ### Acknowledgements
-<<<<<<< HEAD
 - We would like to thank our tutor Tim Nelson for his precious advices.
-=======
 
--
->>>>>>> origin/master
+**_NOTE:_** This is for educational purposes.
