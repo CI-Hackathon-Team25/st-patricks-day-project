@@ -79,11 +79,10 @@ The project was deployed through Github Pages with changes pushed from the maste
 
 ## Credits
 
-Icons made by Freepik from [www.flaticon.com](https://www.flaticon.com/)
-
 ### Content
 
 - The text for history page was written by Marta and extracted from [Wikipedia](https://en.wikipedia.org/wiki/Saint_Patrick%27s_Day)
+- Icons made by Freepik from [www.flaticon.com](https://www.flaticon.com/)
 
 ### Media
 
