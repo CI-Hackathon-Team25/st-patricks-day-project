@@ -34,6 +34,7 @@ The ideal user of our website is:
 - The quiz game allows the users to challenge themselves and provides them a final score.
 - The info section provides inforation about Team 25.
 - A contact form allows users to get in touch with the Team 25 and make their request.
+- Clicking on the beer icon greets the user with a randomised Irish phrase.
 
 ## Technologies Used
 
