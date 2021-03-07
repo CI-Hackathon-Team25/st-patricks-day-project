@@ -53,16 +53,25 @@ Whenever it is feasible, prefer to automate your tests, and if you've done so, p
 For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
 
 1. Contact form:
+
    1. Go to the "Contact Us" page
    2. Try to submit the empty form and verify that an error message about the required fields appears
    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
    4. Try to submit the form with all inputs valid and verify that a success message appears.
+
+2. Responsive Design:
+3. Use Chrome tools and visit site pages from the mobile, tablet, laptop and desktop breakpoints
+4. Check that all icons, illustration, text scales appropriately with each breakpoint
 
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
+
+## Bugs
+
+1. Quiz is not responsive below the tablet breakpoint, at the current time users will need to open the site on a tablet (or higher) screen resolution to play the quiz.
 
 ## Deployment
 
