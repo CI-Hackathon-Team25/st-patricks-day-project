@@ -6,28 +6,98 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <meta name="Description" content="Enter your description here"/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
 <link rel="stylesheet" href="assets/css/style.css">
-<title>St Patricks Day Website</title>
+<link rel="stylesheet" href="assets/css/quiz.css">
+<link rel="icon" type="image/svg" sizes="32x32" href="assets/img/rainbow.svg">
+<link rel="icon" type="image/svg" sizes="16x16" href="assets/img/rainbow.svg">
+<title>Happy Paddy's Day! │ Quiz</title>
 </head>
 
-<body>
+<body class="bg-light">
+<!-- header section -->
+<header>
+  <nav class="navbar navbar-light bg-light">
+      <a class="navbar-brand" href="index.html">
+          <!-- placeholder logo -->
+          <img class="header-icon grow" src="assets/img/rainbow.svg" alt="home button">
+      </a>
+      <h2 class="text-center" id="greetText">Happy St Patrick's Day!</h2>
+      <button onclick="greet()"><img class="header-icon grow" src="assets/img/green-beer.svg" alt="click for randomised greeting"></button>
+  </nav>
+</header>
 
-    <!-- header section -->
+<!-- start Quiz button -->
+<div class="start_btn"><button>Start Quiz</button></div>
+<!-- Info Box -->
+<div class="info_box">
+    <div class="info-title"><span>How to Play</span></div>
+    <div class="info-list">
+        <div class="info">1. You  have <span>10 seconds</span> to answer each question.</div>
+        <div class="info">2. Once you select your answer, it can't be changed.</div>
+        <div class="info">3. When time is up the right answer will be shown.</div>
+        <div class="info">4. You can't leave the Quiz once you start playing.</div>
+        <div class="info">5. You get one point for each correct answer.</div>
+    </div>
+    <div class="buttons">
+        <button class="quit">Exit</button>
+        <button class="restart">Continue</button>
+    </div>
+</div>
+<!-- Quiz Box -->
+<div class="quiz_box">
     <header>
-        <nav class="navbar navbar-light bg-light">
-            <a class="navbar-brand" href="index.html">
-            <!-- placeholder logo -->
-              <img src="assets/img/ireland.svg" width="60" height="60" alt="home button">
-            </a>
-            <div class="container" id="header-text">
-                <h1>Happy St Patrick's Day! / Lá Fhéile Pádraig sona duit!</h1>
-            </div>
-          </nav>
+        <div class="title">St Patricks Day Quiz</div>
+        <div class="timer">
+            <div class="time_left_txt">Time Left</div>
+            <div class="timer_sec">15</div>
+        </div>
+        <div class="time_line"></div>
     </header>
+    <section>
+        <div class="que_text">
+            <!-- Question from questions.js file inserted here on screen -->
+        </div>
+        <div class="option_list">
+            <!-- Question from questions.js file inserted here on screen -->
+        </div>
+    </section>
+    <!-- footer for Quiz Box -->
+    <footer>
+        <div class="total_que">
+            <!-- question number inserted here for current question -->
+        </div>
+        <button class="next_btn">Next</button>
+    </footer>
+</div>
+<!-- Result Box -->
+<div class="result_box">
+    <div class="icon">
+        <i class="fas fa-stopwatch"></i>
+    </div>
+    <div class="complete_text">You've completed the Quiz!</div>
+    <div class="score_text">
+        <!--  Score Result from JavaScript goes here-->
+    </div>
+    <div class="buttons">
+        <button class="restart">Play again</button>
+        <button class="quit">Quit</button>
+    </div>
+</div>
 
-    
+<!-- footer section -->
+<footer>
+  <div class="container">
+      <a href="https://github.com/CI-Hackathon-Team25/st-patricks-day-project"><i class="fab fa-github"></i></a>
+      <a href="https://hackathon.codeinstitute.net/teams/46/"><i class="far fa-circle"></i></a>
+      <p>© The Lucky Charms 2021</p>
+  </div>
+</footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="assets/js/questions.js"></script>
+    <script src="assets/js/scripts.js"></script>
 </body>
 </html>

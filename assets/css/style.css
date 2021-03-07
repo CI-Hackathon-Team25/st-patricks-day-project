@@ -14,7 +14,23 @@
 .nav-btn {
   margin: 20px;
   text-align: center;
+}
 
+.navbar {
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.068);
+}
+
+.navbar-brand {
+  margin-right: 0;
+  padding: 0;
+}
+
+.navbar h2 {
+  font-size: 1.2rem;
+}
+
+.navbar button {
+  padding: 0;
 }
 
 a:link {
@@ -22,9 +38,39 @@ a:link {
   font-size: x-large;
 }
 
+.welcome-container {
+  padding: 16px 30px;
+}
 
-nav ul li {
-    list-style-type: none;
+.card {
+  margin-right: 0;
+  background-color: #fff;
+  border: none;
+  border-radius: 25px;
+  box-shadow: -8px 8px 12px 0 rgba(0, 0, 0, 0.068),
+    12px -12px 16px rgba(255, 255, 255, 0.1);
+}
+
+#welcome-greeting {
+  font-size: 1.2rem;
+}
+
+.card-img-top {
+  text-align: center;
+}
+
+.card-img-top img {
+  width: 150px;
+  height: auto;
+}
+
+#background-storytelling {
+  background-size: cover;
+  background: url("../img/background-storytelling-historypage.jpg") no-repeat
+    center;
+  height: 100%;
+  position: relative;
+  width: 100%;
 }
 h3{
   font-family: 'Irish Grover', cursive;
@@ -40,6 +86,30 @@ p{
     background-image: url('../img/bg-historypage.jpg') no-repeat center;
     height: 100%;
     position: relative;
-    width: 100%;
+    left: 90px;
+    bottom: 243px;
 }
 
+.fa-github {
+  color: black;
+  font-size: 2rem;
+}
+
+.fa-circle {
+  color: orangered;
+  font-size: 2rem;
+}
+
+footer {
+  margin: 0;
+}
+
+footer div {
+  text-align: center;
+}
+
+.center-text {
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 2%;
+}

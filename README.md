@@ -1,24 +1,28 @@
 # Paddy's day greeting
 
-The goal of this project is to remind the history and tradition of Saint Patrick day and at the same make users enjoy with a quiz game. Our goal as Team 25 is to learn how to collaborate as a group in a common project. The aim of this project is also to be contacted by users and developers to have their feedback or the request to develop a game for them.
+The goal of this project is to remind users of the history and tradition of Saint Patrick's day and at the same time positively reinforce their learning with a quiz. Our goal as a team is to learn how to collaborate as a group in a common project. The aim of this project is also to be contacted by users and developers to have their feedback or the request to develop a create a site for them.
 
 ## UX
+
 The ideal user of our website is:
-* An English or Gaelic speaking person.
-This website is:
-* Easy to browse.
-* The informations provided are simple and displayed in a funny way.
-* Guides the users to play a quiz game and to get in touch with the Team 25.
+
+- An English or Gaelic speaking person.
+  This website is:
+- Easy to browse.
+- The informations provided are simple and displayed in a fun way.
+- Guide the users to play a quiz and to get in touch with the Team 25.
 
 ### User Stories
 
 - As a new visitor of the website, I want to learn more about the history and tradition of Saint Patrick day.
 - As a new visitor of the website, I want to challenge my knowledge about why we celebrate the 17th of March.
-- As a new visitor of the website, I want to find a game to play and to have fun with.
-- As a new visitor of the website, I want to get in touch with Team 25 and make my request.
-- As a new visitor of the website, I want to leave my greeting message so that other users can read it. 
-- As a returning visitor of the website, I want to ask to Team 25 for more games to play.
+- As a new visitor of the website, I want to positively reinforce my learning and have fun.
+- As a new visitor of the website, I want to get in touch with Team 25 and make get in touch for collaboration.
+- As a returning visitor of the website, I want to ask to Team 25 for more projects to collaborate on.
 
+##### Wireframe mockups:
+
+<<<<<<< HEAD
 ##### Wireframe mockups: 
 - ![Home page](../wireframes/Homepage.png)
 - ![History page](../wireframes/Historypage.pdf)
@@ -44,25 +48,53 @@ The images, logo and clipart adhere to the theme of Saint Patrick day.
 
 ### Features Left to Implement
 - The initial idea was to create a backend website with Django.
+=======
+- [Home page]()
+- [History page]()
+- [Info page]()
+- [Quiz page]()
+
+## Features
+
+- The main menu allows the users to navigate to the various sections of the site. The menu is positioned central in the page and 3 clover leaves indicate the different pages.
+- The header Logo exists on [every page](../index.html) on the top-left and allows users to come back to the home page as they would expect.
+- The quiz game allows the users to challenge themselves and provides them a final score.
+- The info section provides inforation about Team 25.
+- A contact form allows users to get in touch with the Team 25 and make their request.
+>>>>>>> origin/master
 
 ## Technologies Used
+
 - This project uses HTML, CSS and Javascript programming languages.
 - [BootstrapCDN](https://www.bootstrapcdn.com/) to simplify the structure of the website and make the website responsive.
 - [Google Fonts](https://fonts.google.com/) to style the website fonts.
 - [AutoPrefixer](https://autoprefixer.github.io/) make sure the css code is valid for all browsers.
+<<<<<<< HEAD
 - [EmailJS](https://www.emailjs.com/docs/sdk/installation/) to add functionality to our contact form.
 
+=======
+- [FontAwesomeCDN](https://fontawesome.com/) to provide the social media icons in the footer.
+- [FlatIcon](https://www.flaticon.com/) to provide the illustrations for the page and also the header and navigation icons.
+>>>>>>> origin/master
 
 ## Testing
 
 We tested the user stories manually. 
 
+<<<<<<< HEAD
 1. About us form:
     1. Go to the "About us" page
     2. Try to submit the empty form and verify that an error message about the required fields appears
     3. Try to submit the form with an invalid email address and verify that a relevant error message appears
     4. Try to submit the form with all inputs valid and verify that a success message appears
     5. Try to test it and I received an email in my email box ![Test emailJS](../img/test-email.png)
+=======
+1. Contact form:
+   1. Go to the "Contact Us" page
+   2. Try to submit the empty form and verify that an error message about the required fields appears
+   3. Try to submit the form with an invalid email address and verify that a relevant error message appears
+   4. Try to submit the form with all inputs valid and verify that a success message appears.
+>>>>>>> origin/master
 
 2. Quiz game behaves as expected and returns a final score.
 3. The greeting function has been tested and works accordingly ![Greeting-function](../img/greeting-function-prototype.png) 
@@ -71,6 +103,7 @@ Our project looks responsive on different browsers and screen sizes.
 
 ## Deployment
 
+<<<<<<< HEAD
 We deployed the project to a hosting platform (GitHub Pages).
 At the moment of submitting this project the Development Branch and Master Branch are identical. 
 
@@ -83,18 +116,33 @@ At the moment of submitting this project the Development Branch and Master Branc
 
 Reading and troubleshooting on cloning a repository from GitHub [Article](https://help.github.com/en/articles/cloning-a-repository).
 Reading about how to create git branches [Git branches](https://learngitbranching.js.org).
+=======
+The project was deployed through Github Pages with changes pushed from the master branch.
+>>>>>>> origin/master
 
 ## Credits
 
+Icons made by Freepik from [www.flaticon.com](https://www.flaticon.com/)
+
 ### Content
+<<<<<<< HEAD
 - The text for the Home page was created by Arland.
 - The greetings were created by Andrew.
 - The questions and text for the quiz page was created by Deborah.
+=======
+
+>>>>>>> origin/master
 - The text for history page was written by Marta and extracted from [Wikipedia](https://en.wikipedia.org/wiki/Saint_Patrick%27s_Day)
 
 ### Media
+
 - The background image for history page [Needpix](https://www.needpix.com/photo/download/1861386/storytelling-story-telling-tale-storyteller-fantasy-imagination-literature-kids)
 - The logo is from [Free Logo Maker](https://logomakr.com/6FZRHv)
 
 ### Acknowledgements
+<<<<<<< HEAD
 - We would like to thank our tutor Tim Nelson for his precious advices.
+=======
+
+-
+>>>>>>> origin/master
