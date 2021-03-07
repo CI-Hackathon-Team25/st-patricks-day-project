@@ -36,6 +36,7 @@ nav button {
   min-height: 200px;
   width: 50%;
   height: auto;
+  position: relative;
 }
 
 .grow {
@@ -47,13 +48,108 @@ nav button {
   transform: scale(1.1);
 }
 
+.m-p-0,
+.m-p-0 * {
+  margin: 0;
+  padding: 0;
+}
+
 .nav-label {
   font-family: "Indie Flower";
   font-weight: bold;
+  color: #4caf50;
 }
 
-/* this class uses the filter function to turn our arrows green */
-.green-label {
-  filter: invert(60%) sepia(26%) saturate(899%) hue-rotate(73deg)
-    brightness(91%) contrast(97%);
+/* default mobile styling */
+#history-label {
+  position: relative;
+  right: 60px;
+  bottom: 90px;
+}
+
+#quiz-label {
+  position: relative;
+  right: 10px;
+  bottom: 203px;
+}
+
+#about-label {
+  position: relative;
+  left: 32px;
+  bottom: 87px;
+}
+
+/* tablet styling */
+@media only screen and (min-width: 768px) {
+  .nav-label {
+    font-size: 2rem;
+  }
+
+  #history-label {
+    position: relative;
+    right: 100px;
+    bottom: 160px;
+  }
+
+  #quiz-label {
+    position: relative;
+    right: 15px;
+    bottom: 350px;
+  }
+
+  #about-label {
+    position: relative;
+    left: 60px;
+    bottom: 155px;
+  }
+}
+
+/* laptop styling */
+@media only screen and (min-width: 1024px) {
+  .nav-label {
+    font-size: 2.5rem;
+  }
+
+  #history-label {
+    position: relative;
+    right: 120px;
+    bottom: 200px;
+  }
+
+  #quiz-label {
+    position: relative;
+    right: 20px;
+    bottom: 470px;
+  }
+
+  #about-label {
+    position: relative;
+    left: 80px;
+    bottom: 198px;
+  }
+}
+
+/* desktop styling */
+@media only screen and (min-width: 1200px) {
+  .nav-label {
+    font-size: 2.5rem;
+  }
+
+  #history-label {
+    position: relative;
+    right: 150px;
+    bottom: 250px;
+  }
+
+  #quiz-label {
+    position: relative;
+    right: 25px;
+    bottom: 550px;
+  }
+
+  #about-label {
+    position: relative;
+    left: 90px;
+    bottom: 243px;
+  }
 }
