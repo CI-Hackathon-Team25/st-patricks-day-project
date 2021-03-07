@@ -18,12 +18,17 @@ h4{
   width: 30px;
   height: 30px;
 }
-
+.navbar-toggler{
+    position: absolute;
+    left: 85px;
+}
+#navbarNav{
+    text-align: center;
+}
 .nav-btn {
   margin: 20px;
   text-align: center;
 }
-
 .navbar {
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.068);
 }
@@ -240,7 +245,13 @@ nav button {
     bottom: 198px;
   }
 }
-
+/*phone screen styling*/
+@media (max-width: 575.98px){
+    .navbar-toggler{
+    position: absolute;
+    left: 60px;
+}
+}
 /* desktop styling */
 @media only screen and (min-width: 1200px) {
   .navbar h2 {

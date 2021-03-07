@@ -23,10 +23,10 @@ The ideal user of our website is:
 ##### Wireframe mockups:
 
 ##### Wireframe mockups: 
-- [Home page](https://github.com/CI-Hackathon-Team25/st-patricks-day-project/assets/wireframes/Homepage.png)
-- [History page](https://github.com/CI-Hackathon-Team25/st-patricks-day-project/assets/wireframes/Historypage.pdf)
-- [About page](https://github.com/CI-Hackathon-Team25/st-patricks-day-project/assets/wireframes/Aboutpage.pdf)
-- [Greetings generator](https://github.com/CI-Hackathon-Team25/st-patricks-day-project/assets/wireframes/Greetings-generator.png)
+- ![Home page](https://github.com/CI-Hackathon-Team25/st-patricks-day-project/assets/wireframes/Homepage.png)
+- ![History page](https://github.com/CI-Hackathon-Team25/st-patricks-day-project/assets/wireframes/Historypage.pdf)
+- ![About page](https://github.com/CI-Hackathon-Team25/st-patricks-day-project/assets/wireframes/Aboutpage.pdf)
+- ![Greetings generator](https://github.com/CI-Hackathon-Team25/st-patricks-day-project/assets/wireframes/Greetings-generator.png)
 
 ## Features
 * The main menu allows the users to navigate to the various sections of the site. The menu is positioned central in the page and four-leaf cloves indicate the different pages. 
