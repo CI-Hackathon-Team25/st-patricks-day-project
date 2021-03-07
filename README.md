@@ -41,8 +41,8 @@ The ideal user of our website is:
 - [BootstrapCDN](https://www.bootstrapcdn.com/) to simplify the structure of the website and make the website responsive.
 - [Google Fonts](https://fonts.google.com/) to style the website fonts.
 - [AutoPrefixer](https://autoprefixer.github.io/) make sure the css code is valid for all browsers.
-- [FontAwesomeCDN] (https://fontawesome.com/) to provide the social media icons in the footer.
-- [FlatIcon] (https://www.flaticon.com/) to provide the illustrations for the page and also the header and navigation icons.
+- [FontAwesomeCDN](https://fontawesome.com/) to provide the social media icons in the footer.
+- [FlatIcon](https://www.flaticon.com/) to provide the illustrations for the page and also the header and navigation icons.
 
 ## Testing
 
@@ -70,7 +70,7 @@ The project was deployed through Github Pages with changes pushed from the maste
 
 ## Credits
 
-Icons made by Freepik from [www.flaticon.com] (https://www.flaticon.com/)
+Icons made by Freepik from [www.flaticon.com](https://www.flaticon.com/)
 
 ### Content
 
