@@ -270,6 +270,16 @@ nav button {
   font-size: 2rem;
 }
 
+footer {
+  margin: 0;
+}
+
 footer div {
   text-align: center;
+}
+
+.center-text {
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 2%;
 }
