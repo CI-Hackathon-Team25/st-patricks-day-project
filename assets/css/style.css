@@ -270,8 +270,10 @@ nav button {
   font-size: 2rem;
 }
 
+footer {
+  margin: 0;
+}
+
 footer div {
   text-align: center;
 }
-
-/* quiz styles */

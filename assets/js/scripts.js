@@ -69,7 +69,7 @@ restart_quiz.onclick = ()=>{
 }
 // if quit button clicked
 quit_quiz.onclick = ()=>{
-    window.location.reload(); //reload the current window
+    window.location.href = ("https://ci-hackathon-team25.github.io/st-patricks-day-project/index.html"); //redirect to homepage
 }
 const next_btn = document.querySelector("footer .next_btn");
 const bottom_ques_counter = document.querySelector("footer .total_que");
