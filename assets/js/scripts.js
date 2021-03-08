@@ -149,15 +149,15 @@ function showResult(){
     const scoreText = result_box.querySelector(".score_text");
     if (userScore > 9){ // if user scored more than 9
         //creating a new span tag and passing the user score number and total question number
-        let scoreTag = '<span>and congrats! :tada:, You got <p>'+ userScore +'</p> out of <p>'+ questions.length +'</p></span>';
+        let scoreTag = '<span>and congrats! 🤩, You got <p>'+ userScore +'</p> out of <p>'+ questions.length +'</p></span>';
         scoreText.innerHTML = scoreTag;  //add new span tag inside score_Text
     }
     else if(userScore > 7){ // if user scored more than 7
-        let scoreTag = '<span>and nice :sunglasses:, You got <p>'+ userScore +'</p> out of <p>'+ questions.length +'</p></span>';
+        let scoreTag = '<span>and nice 😎, You got <p>'+ userScore +'</p> out of <p>'+ questions.length +'</p></span>';
         scoreText.innerHTML = scoreTag;
     }
     else{ // if user scored less than 7
-        let scoreTag = '<span>and sorry :neutral_face:, You got only <p>'+ userScore +'</p> out of <p>'+ questions.length +'</p></span>';
+        let scoreTag = '<span>and sorry 😐, You got only <p>'+ userScore +'</p> out of <p>'+ questions.length +'</p></span>';
         scoreText.innerHTML = scoreTag;
     }
 }
