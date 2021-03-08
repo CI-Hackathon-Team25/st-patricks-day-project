@@ -23,11 +23,19 @@ The ideal user of our website is:
 
 ##### Wireframe mockups:
 
-##### Wireframe mockups: 
-- ![Home page](https://github.com/CI-Hackathon-Team25/st-patricks-day-project/assets/wireframes/Homepage.png)
-- ![History page](https://github.com/CI-Hackathon-Team25/st-patricks-day-project/assets/wireframes/Historypage.pdf)
-- ![About page](https://github.com/CI-Hackathon-Team25/st-patricks-day-project/assets/wireframes/Aboutpage.pdf)
-- ![Greetings generator](https://github.com/CI-Hackathon-Team25/st-patricks-day-project/assets/wireframes/Greetings-generator.png)
+- ![Home page](assets/wireframes/homepage.png)
+Here we see a mockup of the homepage. The user is presented with three shamrocks. These shamrocks will respond to the user hovering over them. Clicking the shamrocks will navigate the user to the various pages on the site.
+
+- ![History page](assets/wireframes/history.png)
+An early mockup of the history page. Here, the user can learn some facts about the St Patricks Day celebrations.
+
+- ![About page](assets/wireframes/about.png)
+The about page allows the user to make contact with the sites developers.
+
+- ![Greetings generator](assets/wireframes/greetings.png)
+Here we see a mockup of the greeting generator. The user will click a button which will then display a random Irish greeting.
+
+[Wireframe image](assets/img/wireframe.png) 
 
 ## Features
 * The main menu allows the users to navigate to the various sections of the site. The menu is positioned central in the page where a Three-leaf cloves indicates the different pages. 
@@ -101,6 +109,8 @@ Reading about how to create git branches [Git branches](https://learngitbranchin
 - The greetings were created by Andrew.
 - The text for history page was written by Marta and extracted from [Wikipedia](https://en.wikipedia.org/wiki/Saint_Patrick%27s_Day)
 
+
+- The questions for the quiz were written by Debbie and extracted from [we love quizzes](https://www.welovequizzes.com/st-patricks-day-quiz-questions-and-answers/)
 
 ### Media
 
