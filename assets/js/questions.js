@@ -25,7 +25,7 @@ let questions = [
   },
     {
     numb: 3,
-    question: "Why do peope wear green clothes on St Patricks day?",
+    question: "Why do people wear green clothes on St Patricks day?",
     answer: "To avoid being pinched",
     options: [
       "For luck",
