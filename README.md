@@ -7,7 +7,8 @@ The goal of this project is to remind users of the history and tradition of Sain
 The ideal user of our website is:
 
 - An English or Gaelic speaking person.
-  This website is:
+
+###This website is:
 - Easy to browse.
 - The informations provided are simple and displayed in a fun way.
 - Guide the users to play a quiz and to get in touch with the Team 25.
@@ -29,16 +30,18 @@ The ideal user of our website is:
 - ![Greetings generator](https://github.com/CI-Hackathon-Team25/st-patricks-day-project/assets/wireframes/Greetings-generator.png)
 
 ## Features
-* The main menu allows the users to navigate to the various sections of the site. The menu is positioned central in the page and four-leaf cloves indicate the different pages. 
+* The main menu allows the users to navigate to the various sections of the site. The menu is positioned central in the page where a Three-leaf cloves indicates the different pages. 
 * The header Logo exists on [every page](../index.html) on the top-left and allows users to come back to the home page as they would expect.
 * The greeting generator allows users to leave their greetings. Each time the page loads a different greet is displayed.
 * The quiz game allows the users to challenge themselves and provides them a final score.
-* The info section provides information about Team 25.
+* The about section provides information about Team 25.
 * A contact form allows users to get in touch with the Team 25 and make their request.
+* A toggle menu is present on history and about pages to facilitate user experience otherwise they always had to go back to the home page.
 
 ## Surface 
 ### colors: we used green color for call to action-buttons.
 The images, logo and clipart adhere to the theme of Saint Patrick day.
+### Icons and images are related to Ireland and Saint Patrick day tradition.
 ### Google Fonts:
 - body: 'Josefin Sans', sans-serif.
 - headings: 'Irish Grover', cursive.
@@ -96,14 +99,14 @@ Reading about how to create git branches [Git branches](https://learngitbranchin
 ### Content
 - The text for the Home page was created by Arland.
 - The greetings were created by Andrew.
-- The questions and text for the quiz page was created by Deborah and extracted from [National Geographic Kids](https://kids.nationalgeographic.com/games/quizzes/article/quiz-whiz-st-patricks-day)
 - The text for history page was written by Marta and extracted from [Wikipedia](https://en.wikipedia.org/wiki/Saint_Patrick%27s_Day)
-- Icons made by Freepik from [www.flaticon.com](https://www.flaticon.com/)
+
 
 ### Media
 
 - The background image for history page [Needpix](https://www.needpix.com/photo/download/1861386/storytelling-story-telling-tale-storyteller-fantasy-imagination-literature-kids)
 - The logo is from [Free Logo Maker](https://logomakr.com/6FZRHv)
+- Icons made by Freepik from [www.flaticon.com](https://www.flaticon.com/)
 
 ### Acknowledgements
 - We would like to thank our tutor Tim Nelson for his precious advices.
