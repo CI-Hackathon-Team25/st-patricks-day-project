@@ -35,13 +35,19 @@ The about page allows the user to make contact with the sites developers.
 - ![Greetings generator](assets/wireframes/greetings.png)
 Here we see a mockup of the greeting generator. The user will click a button which will then display a random Irish greeting.
 
+- ![Quiz wireframe](assets/wireframs/quizwireframe.png)
+
 [Wireframe image](assets/img/wireframe.png) 
 
 ## Features
 * The main menu allows the users to navigate to the various sections of the site. The menu is positioned central in the page where a Three-leaf cloves indicates the different pages. 
+* On each of the history and about us pages there is also a drop down menu which allows users to go back
+to the home page or any other page from these pages.  It is not needed on the quiz page as the exit quiz
+button takes a user back to the home page.  A user can also click on the rainbow icon from the quiz page
+and be taken back to the home page.
 * The header Logo exists on [every page](../index.html) on the top-left and allows users to come back to the home page as they would expect.
 * The greeting generator allows users to leave their greetings. Each time the page loads a different greet is displayed.
-* The quiz game allows the users to challenge themselves and provides them a final score.
+* The quiz game allows the users to challenge themselves and gives them a final score.
 * The about section provides information about Team 25.
 * A contact form allows users to get in touch with the Team 25 and make their request.
 * A toggle menu is present on history and about pages to facilitate user experience otherwise they always had to go back to the home page.
@@ -57,6 +63,9 @@ The images, logo and clipart adhere to the theme of Saint Patrick day.
 
 ### Features Left to Implement
 - The initial idea was to create a backend website with Django.
+- One feature that django enable us to implement were a database for user comments.
+- Another feature that could be implemented with django is a gallery for users to add their own pictures to.
+- A login and authentication system could be implemented for users.
 
 ## Technologies Used
 
@@ -108,9 +117,7 @@ Reading about how to create git branches [Git branches](https://learngitbranchin
 - The text for the Home page was created by Arland.
 - The greetings were created by Andrew.
 - The text for history page was written by Marta and extracted from [Wikipedia](https://en.wikipedia.org/wiki/Saint_Patrick%27s_Day)
-
-
-- The questions for the quiz were written by Debbie and extracted from [we love quizzes](https://www.welovequizzes.com/st-patricks-day-quiz-questions-and-answers/)
+- The questions for the quiz were written by Debbie and extracted from [we love quizzes](https://www.welovequizzes.com/st-patricks-day-quiz-questions-and-answers/) and the quiz was based on an idea presented by [codingNepal](https://www.codingnepalweb.com/)
 
 ### Media
 
@@ -119,6 +126,6 @@ Reading about how to create git branches [Git branches](https://learngitbranchin
 - Icons made by Freepik from [www.flaticon.com](https://www.flaticon.com/)
 
 ### Acknowledgements
-- We would like to thank our tutor Tim Nelson for his precious advices.
+- We would like to thank our tutor Tim Nelson for his precious advice.
 
 **_NOTE:_** This is for educational purposes.
